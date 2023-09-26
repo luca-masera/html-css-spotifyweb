@@ -24,6 +24,7 @@
     height: 100vh;
     color: var(--color-white);
     font-family: 'Montserrat', sans-serif;
+
 }
 
 .container-playbar{
@@ -88,6 +89,11 @@
 .padding-bottom20{
     padding-bottom: 20px;
 }
+
+.padding-right{
+    padding-right: 20px;
+}
+
 li{
     list-style: none;
     opacity: 0.5;
@@ -101,4 +107,8 @@ li{
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+img{
+    max-width: 100%;
 }
