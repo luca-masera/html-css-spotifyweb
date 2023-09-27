@@ -253,14 +253,12 @@ hr{
 }
 @media screen and (max-width: 576px) {
     
-    .display{
-        display: block;
-    }
     
-    .display-none{
+    nav a span.text{
         display: none;
-    
     }
+
+    
     .container.main{
         width: calc(100% - 90px);
     }
