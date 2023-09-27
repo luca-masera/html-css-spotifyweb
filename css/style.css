@@ -75,11 +75,11 @@
     color: var(--color-white);
     border-radius: 15px;
     border: 1px solid var(--color-white);
-    opacity: 1;    
+    cursor: pointer;
 }
 
 .bottom:hover{
-    background-color: var(--color-white);
+    font-size: 20px;
 }
 
 .container-playbar1{
@@ -158,6 +158,7 @@ li{
     opacity: 0.5;
     padding: 10px;
     range: auto;
+    cursor: pointer;
 }
 
 li:hover{
@@ -170,9 +171,7 @@ li:hover{
     padding-bottom: 15px;
 }
 
-.i:hover{
-    
-}
+
 
 .i-dimension1{
     font-size: 50px;
@@ -199,6 +198,11 @@ img{
 
 .opacity{
     opacity: 0.5;
+    cursor: pointer;
+}
+
+.opacity:hover{
+    opacity: 1;
 }
 .text-center{
     text-align: center;
@@ -207,10 +211,14 @@ img{
 .box{
     max-width: 100%;
     /*width: 250px;
-    height: 250px;*/
-    border-radius: 50%;
+    height: 250px;
+    border-radius: 50%;*/
     overflow: hidden;
 
+}
+
+.border-radius{
+    border-radius: 50%;
 }
 
 hr{
