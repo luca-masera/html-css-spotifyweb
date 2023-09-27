@@ -18,17 +18,17 @@
             <a class="bottom margin-right30 "> effettua l'upgrade</a>
         </div>
         <div class="d-flex main">
-            <nav class="container-menu display-none">
+            <nav class="container-menu">
                 <div>
                     <img class="img-logo" src="img/logo.svg" alt="">
                 </div>
                 <div class="d-flex-column padding-left20">
-                    <a class="opacity"><i class="fa-solid fa-house i"></i> Home</a>
-                    <a class="opacity"><i class="fa-solid fa-magnifying-glass i"></i>Cerca</a>
-                    <a class="opacity "><i class="fa-solid fa-book i"></i>La tua libreria</a>
-                    <h4>PLAYLIST</h4>
-                    <a class="opacity"><i class="fa-regular fa-square-plus i-dimension1"></i>Crea Playlist</a>
-                    <ul>
+                    <a class="opacity display-none"><i class="fa-solid fa-house i"></i> Home</a>
+                    <a class="opacity display-none"><i class="fa-solid fa-magnifying-glass i"></i>Cerca</a>
+                    <a class="opacity display-none display-none"><i class="fa-solid fa-book i"></i>La tua libreria</a>
+                    <h4 class="display-none">PLAYLIST</h4>
+                    <a class="opacity display-none"><i class="fa-regular fa-square-plus i-dimension1"></i>Crea Playlist</a>
+                    <ul class="display-none">
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
@@ -41,10 +41,10 @@
                 </div>
 
                 <div class="d-flex-column padding-left20">
-                    <a class="opacity padding-top40 "><i class="fa-regular fa-circle-down i-dimension2"></i>Installa
+                    <a class="opacity padding-top40 display-none"><i class="fa-regular fa-circle-down i-dimension2"></i>Installa
                         app</a>
                     <hr>
-                    <span>Luca Masera</span>
+                    <span class="display-none">Luca Masera</span>
                 </div>
             </nav>
 
@@ -64,8 +64,11 @@
 
                 <div class="d-flex d-flex-wrap">
                     <div class="card">
-                        <div class="padding-bottom20">
+                        <div class="padding-bottom20 card-img">
                             <img src="img/metal_lifting.jpg" alt=" metal_lifting">
+                            <div class="overlay">
+                                <i class="fa-regular fa-circle-play icon"></i>
+                            </div>
                         </div>
                         <div class="text-center">
                             <h3 class="padding-bottom10">Heavy Metal</h3>
@@ -73,8 +76,11 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="padding-bottom20">
+                        <div class="padding-bottom20 card-img">
                             <img src="img/stranger.jpeg" alt=" metal_lifting">
+                            <div class="overlay">
+                                <i class="fa-regular fa-circle-play icon"></i>
+                            </div>
                         </div>
                         <div class="text-center">
                             <h3 class="padding-bottom10">Stranger Things</h3>
@@ -82,8 +88,11 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="padding-bottom20">
+                        <div class="padding-bottom20 card-img">
                             <img src="img/aquietplace.jpeg" alt=" metal_lifting">
+                            <div class="overlay">
+                                <i class="fa-regular fa-circle-play icon"></i>
+                            </div>
                         </div>
                         <div class="text-center">
                             <h3 class="padding-bottom10">A quiet place</h3>
@@ -91,8 +100,11 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="padding-bottom20">
+                        <div class="padding-bottom20 card-img">
                             <img src="img/split.jpeg" alt=" metal_lifting">
+                            <div class="overlay">
+                                <i class="fa-regular fa-circle-play icon"></i>
+                            </div>
                         </div>
                         <div class="text-center">
                             <h3 class="padding-bottom10">Split</h3>
@@ -100,8 +112,11 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="padding-bottom20">
+                        <div class="padding-bottom20 card-img">
                             <img src="img/cure.jpeg" alt=" metal_lifting">
+                            <div class="overlay">
+                                <i class="fa-regular fa-circle-play icon"></i>
+                            </div>
                         </div>
                         <div class="text-center">
                             <h3 class="padding-bottom10">A cure for wellness</h3>
@@ -109,8 +124,11 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="padding-bottom20">
+                        <div class="padding-bottom20 card-img">
                             <img src="img/sinister.jpeg" alt=" metal_lifting">
+                            <div class="overlay">
+                                <i class="fa-regular fa-circle-play icon"></i>
+                            </div>
                         </div>
                         <div class="text-center">
                             <h3 class="padding-bottom10">Sinister</h3>
@@ -125,8 +143,11 @@
 
                 <div class="d-flex d-flex-wrap">
                     <div class="card">
-                        <div class="padding-bottom20">
+                        <div class="padding-bottom20 card-img">
                             <img src="img/radar.jpeg" alt=" metal_lifting">
+                            <div class="overlay">
+                                <i class="fa-regular fa-circle-play icon"></i>
+                            </div>
                         </div>
                         <div class="text-center">
                             <h3 class="padding-bottom10">Release Radar</h3>
@@ -134,8 +155,11 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="padding-bottom20">
+                        <div class="padding-bottom20 card-img">
                             <img src="img/mixdaily.jpeg" alt=" metal_lifting">
+                            <div class="overlay">
+                                <i class="fa-regular fa-circle-play icon"></i>
+                            </div>
                         </div>
                         <div class="text-center">
                             <h3 class="padding-bottom10">Daily Mix 1</h3>
@@ -149,8 +173,11 @@
 
                 <div class="d-flex d-flex-wrap">
                     <div class="card">
-                        <div class="padding-bottom20 box">
+                        <div class="padding-bottom20 card-img box">
                             <img src="img/youg.jpeg" alt=" metal_lifting">
+                            <div class="overlay">
+                                <i class="fa-regular fa-circle-play icon"></i>
+                            </div>
                         </div>
                         <div class="text-center">
                             <h3 class="padding-bottom10">Lana Del Ray</h3>
@@ -158,8 +185,11 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="padding-bottom20 box">
+                        <div class="padding-bottom20 box card-img">
                             <img src="img/einaudi.jpeg" alt=" metal_lifting">
+                            <div class="overlay">
+                                <i class="fa-regular fa-circle-play icon"></i>
+                            </div>
                         </div>
                         <div class="text-center">
                             <h3 class="padding-bottom10">Ludovico Einaudi</h3>
