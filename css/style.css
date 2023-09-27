@@ -74,9 +74,13 @@
     padding: 6px 20px;
     color: var(--color-white);
     border-radius: 15px;
-    border: 1px solid var(--color-white);    
+    border: 1px solid var(--color-white);
+    opacity: 1;    
 }
 
+.bottom:hover{
+    background-color: var(--color-white);
+}
 
 .container-playbar1{
     width: 250px;
@@ -156,12 +160,18 @@ li{
     range: auto;
 }
 
-
+li:hover{
+    opacity: 1;
+}
 
 .i{
     font-size: 30px;
     padding-right: 10px;
     padding-bottom: 15px;
+}
+
+.i:hover{
+    
 }
 
 .i-dimension1{
@@ -257,8 +267,18 @@ hr{
     nav a span.text{
         display: none;
     }
-
     
+    nav h4.text{
+        display: none;
+    }
+    
+    nav ul.text{
+        display: none;
+    }
+    
+    .display-none{
+        display: none;
+    }
     .container.main{
         width: calc(100% - 90px);
     }
