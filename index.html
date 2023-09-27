@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@500&family=Noto+Sans+Mahajani&family=PT+Sans&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@500&family=Noto+Sans+Mahajani&family=PT+Sans&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Spotify</title>
 </head>
@@ -16,16 +18,16 @@
             <a class="bottom margin-right30 "> effettua l'upgrade</a>
         </div>
         <div class="d-flex main">
-            <nav class="container-menu">
+            <nav class="container-menu display-none">
                 <div>
                     <img class="img-logo" src="img/logo.svg" alt="">
                 </div>
                 <div class="d-flex-column padding-left20">
-                    <span class="opacity"><i class="fa-solid fa-house"></i> Home</span>
-                    <span class="opacity"><i class="fa-solid fa-magnifying-glass"></i>Cerca</span>
-                    <span class="opacity "><i class="fa-solid fa-book"></i>La tua libreria</span>
+                    <a class="opacity"><i class="fa-solid fa-house i"></i> Home</a>
+                    <a class="opacity"><i class="fa-solid fa-magnifying-glass i"></i>Cerca</a>
+                    <a class="opacity "><i class="fa-solid fa-book i"></i>La tua libreria</a>
                     <h4>PLAYLIST</h4>
-                    <span class="opacity"><i class="fa-regular fa-square-plus i-dimension1"></i>Crea Playlist</span>
+                    <a class="opacity"><i class="fa-regular fa-square-plus i-dimension1"></i>Crea Playlist</a>
                     <ul>
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
@@ -34,18 +36,19 @@
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
-                        
+
                     </ul>
                 </div>
 
                 <div class="d-flex-column padding-left20">
-                    <span class="opacity padding-top40 "><i class="fa-regular fa-circle-down i-dimension2"></i>Installa app</span>
+                    <a class="opacity padding-top40 "><i class="fa-regular fa-circle-down i-dimension2"></i>Installa
+                        app</a>
                     <hr>
                     <span>Luca Masera</span>
                 </div>
             </nav>
 
-            <div class="container-main">
+            <div class="container-main display">
                 <div class="justify-center">
                     <ul class="d-flex d-flex-wrap">
                         <li>IN EVIDENZA</li>
@@ -114,7 +117,7 @@
                             <span class="opacity">Subtitle</span>
                         </div>
                     </div>
-                                                           
+
                 </div>
 
                 <h2 class="padding-top40 padding-bottom10">Creato per John Doe</h2>
@@ -163,13 +166,45 @@
                             <span class="opacity">Subtitle</span>
                         </div>
                     </div>
-                </div>             
-                                       
+                </div>
+
 
             </div>
 
         </div>
-        <div class="container-playbar"></div>
+        <div class="container-playbar d-flex d-flex-align">
+            <div class="container-playbar1 d-flex-align padding-left20">
+                <img class="img-playbar" src="img/metal_lifting.jpg" alt="">
+                <div>
+                    <h5>Metallica</h5>
+                    <span class="opacity">Brano nome</span>
+                </div>
+                <a><i class="fa-regular fa-heart"></i></a>
+                <a><i class="fa-regular fa-folder"></i></a>
+
+            </div>
+
+            <div>
+                <div class="d-flex-align padding-bottom10">
+                    <a><i class="fa-solid fa-shuffle"></i></a>
+                    <a><i class="fa-solid fa-backward"></i></a>
+                    <a><i class="fa-regular fa-circle-play"></i></a>
+                    <a><i class="fa-solid fa-forward"></i></a>
+                    <a><i class="fa-solid fa-arrow-rotate-right"></i></a>
+
+                </div>
+                <div>
+                    <input type="range" value="100" min="0" max="1000">
+                </div>
+            </div>
+            <div class="container-playbar3 d-flex-align d-flex padding-right20">
+
+                <a><i class="fa-solid fa-list"></i></a>
+                <a><i class="fa-solid fa-desktop"></i></a>
+                <a><i class="fa-solid fa-volume-high"></i></a>
+                <input type="range" value="100" min="0" max="500">
+            </div>
+        </div>
     </div>
 
 </body>
