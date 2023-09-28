@@ -101,6 +101,7 @@
 
 .width{
     width: 100%;
+    
 }
 
 .container-playbar3{
@@ -111,12 +112,15 @@
 /*UTILITY*/
 
 .border-bottom{
-    border-bottom: 2px solid rgba(128, 255, 0, 0);
+    border-bottom: 2px solid var(--color-highlight);
     width: 50px;
+    margin: auto;
 }
 
-.border-bottom:hover{
-    border-bottom: 2px solid var(--color-highlight)
+
+
+input:hover{
+    background-color: var(--color-highlight);
 }
 
 .border-left{
@@ -356,6 +360,17 @@ hr{
     .img-playbar{
     width: 55%;
     }
-
+    
+    .container-playbar1{
+        width: 100px;
+    }
+    
+    .container-playbar2{
+        width: 200px;
+    }
+    
+    .container-playbar3{
+        width: 100px;
+    }
 
 }
