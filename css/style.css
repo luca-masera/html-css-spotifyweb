@@ -110,6 +110,19 @@
 
 /*UTILITY*/
 
+.border-bottom{
+    border-bottom: 2px solid rgba(128, 255, 0, 0);
+    width: 50px;
+}
+
+.border-bottom:hover{
+    border-bottom: 2px solid var(--color-highlight)
+}
+
+.border-left{
+    border-left: 5px solid var(--color-highlight);
+}
+
 .debug{
     border: 1px solid black;
 }
@@ -340,5 +353,9 @@ hr{
     .container-call-to-action{
         width: calc(100% - 90px);
     }
+    .img-playbar{
+    width: 55%;
+    }
+
 
 }
