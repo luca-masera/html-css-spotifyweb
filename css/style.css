@@ -17,7 +17,7 @@
 .main{
     width: 100%;
     height: calc(100% - 90px);
-    
+       
 }
 .container-wrapper{
     width: 100%;
@@ -157,6 +157,9 @@ li:hover{
     opacity: 1;
 }
 
+a:hover{
+    font-size: 25px;
+}
 .i{
     font-size: 30px;
     padding-right: 10px;
@@ -181,14 +184,21 @@ img{
     max-width: 100%;
 }
 
+.img-logo-small{
+    max-width: 50%;
+    position: relative;
+    top: 22;
+    left: 16;
+    opacity: 1;
+    display: none;
+}
+
 .img-logo{
-    max-width: 70%;
-    padding-top: 20px;
-    
+    max-width: 70%;      
 }
 
 .img-playbar{
-    width: 26%;
+    width: 18%;
 }
 
 .opacity{
@@ -293,12 +303,22 @@ hr{
     }
 }
 @media screen and (max-width: 576px) {
-    
-    
+
+    .img-logo-small{
+        opacity: 1;
+        display: block;
+    }
     nav a span.text{
         display: none;
     }
     
+    nav a i.display-none{
+        display: none;
+    } 
+    
+    nav span.text{
+        display: none;
+    }
     nav h4.text{
         display: none;
     }
@@ -310,13 +330,15 @@ hr{
     .display-none{
         display: none;
     }
-    .container.main{
+    
+    .container-main{
         width: calc(100% - 90px);
     }
-    
     .container-menu{
         width: 90px;
     }
-
+    .container-call-to-action{
+        width: calc(100% - 90px);
+    }
 
 }
