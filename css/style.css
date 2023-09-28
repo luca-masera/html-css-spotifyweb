@@ -101,7 +101,11 @@
 
 .width{
     width: 100%;
-    
+}
+
+
+input:hover{
+    accent-color: var(--color-highlight);
 }
 
 .container-playbar3{
