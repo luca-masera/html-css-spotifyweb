@@ -18,16 +18,17 @@
             <a class="bottom margin-right30 "> effettua l'upgrade</a>
         </div>
         <div class="d-flex main">
-            <nav class="container-menu">
-                <div>
-                    <img class="img-logo" src="img/logo.svg" alt="">
-                </div>
+            <nav class="container-menu d-flex-column">
                 <div class="d-flex-column padding-left20">
+                    <img class="img-logo padding-bottom20" src="img/logo.svg" alt="">               
+                
                     <a class="opacity "><i class="fa-solid fa-house i"></i><span class="text">Home</span></a>
-                    <a class="opacity "><i class="fa-solid fa-magnifying-glass i"></i><span class="text">Cerca</span></a>
+                    <a class="opacity "><i class="fa-solid fa-magnifying-glass i"></i><span
+                            class="text">Cerca</span></a>
                     <a class="opacity "><i class="fa-solid fa-book i"></i><span class="text">La tua libreria</span></a>
                     <h4 class="text"><strong>PLAYLIST</strong></h4>
-                    <a class="opacity"><i class="fa-regular fa-square-plus i-dimension1"></i><span class="text">Crea Playlist</span></a>
+                    <a class="opacity"><i class="fa-regular fa-square-plus i-dimension-playlist"></i><span
+                            class="text">Crea Playlist</span></a>
                     <ul class="text">
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
@@ -40,11 +41,14 @@
                     </ul>
                 </div>
 
-                <div class="d-flex-column padding-left20">
-                    <a class="opacity padding-top40"><i class="fa-regular fa-circle-down i-dimension2"></i><span class="text">Installa
-                        app</span></a>
-                    <hr class="display-none">
-                    <span class="display-none"><i class="fa-regular fa-circle-user"></i>Luca Masera</span>
+                <div class=" padding-left20">
+                    <div>
+                        <a class="opacity"><i class="fa-regular fa-circle-down i-dimension2"></i><span
+                                class="text">Installa
+                                app</span></a>
+                        <hr class="display-none">
+                        <span class="display-none"><i class="fa-regular fa-circle-user"></i>Luca Masera</span>
+                    </div>
                 </div>
             </nav>
 
@@ -64,7 +68,7 @@
 
                 <div class="d-flex d-flex-wrap">
                     <div class="card">
-                        <div class="padding-bottom20 card-img">
+                        <div class="card-img">
                             <img src="img/metal_lifting.jpg" alt=" metal_lifting">
                             <div class="overlay">
                                 <i class="fa-regular fa-circle-play icon"></i>
@@ -76,7 +80,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="padding-bottom20 card-img">
+                        <div class="card-img">
                             <img src="img/stranger.jpeg" alt=" metal_lifting">
                             <div class="overlay">
                                 <i class="fa-regular fa-circle-play icon"></i>
@@ -88,7 +92,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="padding-bottom20 card-img">
+                        <div class="card-img">
                             <img src="img/aquietplace.jpeg" alt=" metal_lifting">
                             <div class="overlay">
                                 <i class="fa-regular fa-circle-play icon"></i>
@@ -100,7 +104,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="padding-bottom20 card-img">
+                        <div class="card-img">
                             <img src="img/split.jpeg" alt=" metal_lifting">
                             <div class="overlay">
                                 <i class="fa-regular fa-circle-play icon"></i>
@@ -112,7 +116,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="padding-bottom20 card-img">
+                        <div class="card-img">
                             <img src="img/cure.jpeg" alt=" metal_lifting">
                             <div class="overlay">
                                 <i class="fa-regular fa-circle-play icon"></i>
@@ -124,7 +128,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="padding-bottom20 card-img">
+                        <div class="card-img">
                             <img src="img/sinister.jpeg" alt=" metal_lifting">
                             <div class="overlay">
                                 <i class="fa-regular fa-circle-play icon"></i>
@@ -143,7 +147,7 @@
 
                 <div class="d-flex d-flex-wrap">
                     <div class="card">
-                        <div class="padding-bottom20 card-img">
+                        <div class="card-img">
                             <img src="img/radar.jpeg" alt=" metal_lifting">
                             <div class="overlay">
                                 <i class="fa-regular fa-circle-play icon"></i>
@@ -155,7 +159,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="padding-bottom20 card-img">
+                        <div class="card-img">
                             <img src="img/mixdaily.jpeg" alt=" metal_lifting">
                             <div class="overlay">
                                 <i class="fa-regular fa-circle-play icon"></i>
@@ -173,7 +177,7 @@
 
                 <div class="d-flex d-flex-wrap">
                     <div class="card">
-                        <div class="padding-bottom20 card-img box">
+                        <div class="card-img box">
                             <img class="border-radius" src="img/youg.jpeg" alt=" metal_lifting">
                             <div class="overlay">
                                 <i class="fa-regular fa-circle-play icon"></i>
@@ -185,7 +189,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="padding-bottom20 box card-img">
+                        <div class="box card-img">
                             <img class="border-radius" src="img/einaudi.jpeg" alt=" metal_lifting">
                             <div class="overlay">
                                 <i class="fa-regular fa-circle-play icon"></i>
@@ -202,7 +206,7 @@
             </div>
 
         </div>
-        <div class="container-playbar d-flex d-flex-align">
+        <div class="container-playbar d-flex-align">
             <div class="container-playbar1 d-flex-align padding-left20">
                 <img class="img-playbar" src="img/metal_lifting.jpg" alt="">
                 <div>
@@ -214,25 +218,32 @@
 
             </div>
 
-            <div>
-                <div class="d-flex-align padding-bottom10">
-                    <a><i class="fa-solid fa-shuffle"></i></a>
-                    <a><i class="fa-solid fa-backward"></i></a>
-                    <a><i class="fa-regular fa-circle-play"></i></a>
-                    <a><i class="fa-solid fa-forward"></i></a>
-                    <a><i class="fa-solid fa-arrow-rotate-right"></i></a>
+            <div class="container-playbar2 ">
+                <div class="justify-center padding-bottom10 padding-top15">
+
+                    <a><i class="fa-solid fa-shuffle i-dimension2 padding-right20"></i></a>
+                    <a><i class="fa-solid fa-backward i-dimension2 padding-right20"></i></a>
+                    <a><i class="fa-regular fa-circle-play i-dimension-play padding-right20"></i></a>
+                    <a><i class="fa-solid fa-forward i-dimension2 padding-right20"></i></a>
+                    <a><i class="fa-solid fa-arrow-rotate-right i-dimension2"></i></a>
 
                 </div>
                 <div>
-                    <input type="range" value="100" min="0" max="1000">
+                    <div class="d-flex-space">
+                        <span>0.25</span>
+
+                        <input class="width" type="range" value="100" min="0" max="1000">
+
+                        <span>4.35</span>
+                    </div>
                 </div>
             </div>
             <div class="container-playbar3 d-flex-align d-flex padding-right20">
 
-                <a><i class="fa-solid fa-list"></i></a>
-                <a><i class="fa-solid fa-desktop"></i></a>
-                <a><i class="fa-solid fa-volume-high"></i></a>
-                <input type="range" value="100" min="0" max="500">
+                <a><i class="fa-solid fa-list padding-right20"></i></a>
+                <a><i class="fa-solid fa-desktop padding-right20"></i></a>
+                <a><i class="fa-solid fa-volume-high padding-right20"></i></a>
+                <input class="width" type="range" value="100" min="0" max="500">
             </div>
         </div>
     </div>
